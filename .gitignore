@@ -1,0 +1,10 @@
+# Environnement Python local (recréable avec requirements.txt)
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+
+# Fichiers système macOS
+.DS_Store
+
+# Données Big Data générées (TP3_ID18/Big) : recréées par le notebook
+TP3_ID18/Big/bigdata/

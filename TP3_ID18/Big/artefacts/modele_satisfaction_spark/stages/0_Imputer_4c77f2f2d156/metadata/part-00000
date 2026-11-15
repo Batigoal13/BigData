@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1794499085367,"sparkVersion":"3.5.9","uid":"Imputer_4c77f2f2d156","paramMap":{"strategy":"median","outputCols":["arrival_delay_imp"],"inputCols":["arrival_delay_in_minutes"]},"defaultParamMap":{"strategy":"mean","relativeError":0.001,"outputCol":"Imputer_4c77f2f2d156__output","missingValue":"NaN"}}

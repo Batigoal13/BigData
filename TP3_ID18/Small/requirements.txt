@@ -1,0 +1,13 @@
+# TP3 Small — pipeline data science « petites données » (pandas / scikit-learn), complété par une section PySpark
+ipykernel
+pandas==3.0.*
+numpy
+matplotlib
+scipy
+scikit-learn==1.9.*
+xgboost==3.4.*
+joblib
+# section 10 du notebook (complément PySpark) : Java 11 requis, ~/hadoop_tp/jdk-11*, cf. TP1
+pyspark==3.5.*
+# ⚠️ macOS (Apple Silicon) : xgboost a besoin de libomp. Sans Homebrew ARM, on a pointé
+# xgboost vers le libomp fourni par scikit-learn : install_name_tool -add_rpath "@loader_path/../../sklearn/.dylibs" xgboost/lib/libxgboost.dylib puis codesign -f -s -.

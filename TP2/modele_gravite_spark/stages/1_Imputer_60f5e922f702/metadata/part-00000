@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.ImputerModel","timestamp":1794763498307,"sparkVersion":"3.5.9","uid":"Imputer_60f5e922f702","paramMap":{"strategy":"median","outputCols":["vitesse","nb_unites","age_max"],"inputCols":["vitesse","nb_unites","age_max"]},"defaultParamMap":{"strategy":"mean","outputCol":"Imputer_60f5e922f702__output","relativeError":0.001,"missingValue":"NaN"}}

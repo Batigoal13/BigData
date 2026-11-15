@@ -1,0 +1,10 @@
+# TP3 Big — pipeline Big Data avec Spark (Java 11 requis : ~/hadoop_tp/jdk-11*, cf. TP1)
+ipykernel
+pyspark==3.5.*
+pyarrow
+pandas==3.0.*
+numpy
+matplotlib
+# référence du notebook d'origine (section 6.2)
+scikit-learn==1.9.*
+xgboost==3.4.*
